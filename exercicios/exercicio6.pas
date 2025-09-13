@@ -8,6 +8,6 @@ begin
     writeln ('Para saber a area do círculo, informe o raio: ');
     writeln ('Raio:');
     readln (r);
-    a := pi * r;
+    a := pi * r * r;
     writeln ('A area do círculo é ',a:2:0);
 end.
