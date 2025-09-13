@@ -1,10 +1,10 @@
-{
-  Objetivo do programa: Calcule o quadrado de um número
-  Data da criacao: 2025-08-28
-  Criado por: @programacaomentoria
-}  
+// Calcule o quadrado de um número. Pergunte o número, calcule e exiba no final o resultado.
 program exercicio4;
-
-begin:
-
+var
+    numero, resultado: integer;
+begin
+    writeln ('Qual número deseja calcular o quadrado');
+    readln (numero);
+    resultado := numero * numero;
+    writeln ('O quadrado do número ',numero , ' é ', resultado);
 end.
