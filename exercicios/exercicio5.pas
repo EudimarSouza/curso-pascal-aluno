@@ -1,11 +1,10 @@
-{
-  Objetivo do programa: Calcule a área de um quadrado.
-						Como calcular: Area = lado * lado
-  Data da criacao: 2025-08-28
-  Criado por: @programacaomentoria
-}  
+//Calcule a área de um quadrado. Como calcular: Area = lado * lado
 program exercicio5;
-
-begin:
-
+var
+    lado, area: integer;
+begin
+    writeln ('Para saber a area do quadrado, informe o valor do Lado');
+    readln (lado);
+    area := lado * lado;
+    writeln ('A area do quadrado é ',area);
 end.
